@@ -11,7 +11,7 @@ Learn how to extend your React Native apps with native functionality by building
 1. Install dependencies
 
    ```bash
-   npm install
+   bun install
    ```
 
 2. Start the app
@@ -34,5 +34,4 @@ This project is part of the comprehensive React Native course where you'll learn
 ## Resources
 
 - [Expo Modules API](https://docs.expo.dev/modules/overview/)
-- [React Native New Architecture](https://reactnative.dev/docs/the-new-architecture/landing-page)
 - [Expo Documentation](https://docs.expo.dev/)
