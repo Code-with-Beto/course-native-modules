@@ -1,8 +1,12 @@
-# Welcome to your Expo app 👋
+# Native Modules - React Native Course 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains example code and complementary resources for the **Native Modules** section of the React Native course at [codewithbeto.dev/learn](https://codewithbeto.dev/learn).
 
-## Get started
+## About
+
+Learn how to extend your React Native apps with native functionality by building custom native modules for iOS and Android. This project serves as a hands-on companion to the course lessons.
+
+## Getting Started
 
 1. Install dependencies
 
@@ -16,35 +20,19 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run on your preferred platform:
+   - Press `i` for iOS simulator
+   - Press `a` for Android emulator
+   - Scan QR code with Expo Go app on your device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Course
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📚 **Full Course:** [codewithbeto.dev/learn](https://codewithbeto.dev/learn)
 
-## Get a fresh project
+This project is part of the comprehensive React Native course where you'll learn to build production-ready mobile applications.
 
-When you're ready, run:
+## Resources
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Modules API](https://docs.expo.dev/modules/overview/)
+- [React Native New Architecture](https://reactnative.dev/docs/the-new-architecture/landing-page)
+- [Expo Documentation](https://docs.expo.dev/)
