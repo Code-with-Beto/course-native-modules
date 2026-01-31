@@ -1,9 +1,27 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Button, StyleSheet, View } from "react-native";
+import CwbHaptics from "../../modules/cwb-haptics";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Button
+        title="Light Haptic"
+        onPress={async () => {
+          await CwbHaptics.triggerHaptic("light");
+        }}
+      />
+      <Button
+        title="Medium Haptic"
+        onPress={async () => {
+          await CwbHaptics.triggerHaptic("medium");
+        }}
+      />
+      <Button
+        title="Heavy Haptic"
+        onPress={async () => {
+          await CwbHaptics.triggerHaptic("heavy");
+        }}
+      />
     </View>
   );
 }
