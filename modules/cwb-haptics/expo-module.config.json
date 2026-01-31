@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["CwbHapticsModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.cwbhaptics.CwbHapticsModule"]
+  }
+}
