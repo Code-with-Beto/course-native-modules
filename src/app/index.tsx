@@ -1,9 +1,17 @@
+import { useRouter } from "expo-router";
 import { Button, StyleSheet, View } from "react-native";
 import CwbHaptics from "../../modules/cwb-haptics";
 
 export default function Index() {
+  const router = useRouter();
   return (
     <View style={styles.container}>
+      <Button
+        title="Liquid Glass"
+        onPress={() => {
+          router.push("/liquid-glass-screen");
+        }}
+      />
       <Button
         title="Light Haptic"
         onPress={async () => {
