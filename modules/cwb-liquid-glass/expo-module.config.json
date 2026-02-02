@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["CwbLiquidGlassModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.cwbliquidglass.CwbLiquidGlassModule"]
+  }
+}
