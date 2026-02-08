@@ -1,3 +1,4 @@
+import { Text } from "@codewithbeto/ui";
 import { useRouter } from "expo-router";
 import { Button, StyleSheet, View } from "react-native";
 import CwbHaptics from "../../modules/cwb-haptics";
@@ -6,6 +7,9 @@ export default function Index() {
   const router = useRouter();
   return (
     <View style={styles.container}>
+      <Text weight="bold" type="title">
+        Hello World
+      </Text>
       <Button
         title="Liquid Glass"
         onPress={() => {
